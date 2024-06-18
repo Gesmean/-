@@ -82,6 +82,7 @@ ls -a ~/.ssh
 ----
 
 6) Убедимся, что репозитории связаны: <br>
+`git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git`
 `git remote -v`
 В результате выполнения команды должны вывестить две строки:
 ```
